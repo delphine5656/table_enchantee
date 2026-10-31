@@ -1,0 +1,325 @@
+/* typographic styles for the website 
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+body {
+    font-family: "Lato", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #FFD700;
+}
+
+/*color palette for the website */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid #FFD700;
+  color : #FFD700;
+
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #FFD700;
+  color : #000;
+  margin-top: 20px;
+
+}
+
+.btn-secondary:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  color: #FFD700;
+}
+ .fa-solid {
+  color: #FFD700;
+  font-size: 20px;
+}
+
+/* layout and spacing for the website */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header and footer styles for the website */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #000;
+}
+ nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.li-nav{
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.li-nav:hover {
+    color: #FFD700;
+}
+ .li-nav.active {
+    color: #FFD700;
+    text-decoration: underline;
+ }
+/* responsive design for different screen sizes */
+
+/* typography and font styles for headings and paragraphs */
+
+/* button and link styles for user interaction */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* form input and validation styles */
+
+/* image and media styling for visual content */
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* animation and transition effects for interactive elements */
+
+
+/* hero section styles for the landing page */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    background-image: url('assets/hero.jpeg');
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding: 0 100px;
+}
+
+.hero-content h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+}
+
+.hero-content .btn-primary {
+    margin-top: 20px;
+}
+
+.hero-content h1 span {
+    color: #FFD700;
+}
+
+
+/*section about */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    background-color: #fff;
+}
+
+.about-image {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    width: 55%;
+}
+
+/*section réassurance */
+.reassurance {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 100px;
+    background-color: #1f1e1e;
+    color: #fff;
+}
+
+.reassurance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    border-right: 1px solid #D4AF37;
+    padding: 0 24px;
+    align-self: stretch;
+}
+
+
+.reassurance-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #FFD700;
+}
+
+.reassurance-item .svg-inline--fa{
+    color: #FFD700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* section carte accueil */
+.separator-diagonal {
+  display: inline-block;
+  width: 3px;
+  height: 6ch;
+  background-color: #D4AF37;
+  transform: rotate(80deg);
+  text-align: center;
+}
+
+.card-accueil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.card-accueil-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-image-item {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-accueil-image-item{
+    text-align: center;
+}
+
+/*section réservation */
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url('assets/reservation.jpeg')center / cover no-repeat;
+    color: #fff;
+}
+
+.reservation-content {
+    text-align: center;
+}
+/*FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer .svg-inline--fa{
+    color: #FFD700;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
