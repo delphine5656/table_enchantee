@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #efebe2;
 }
 
 h1 {
@@ -146,7 +146,19 @@ ul {
     text-align: left;
     padding: 0 100px;
 }
-
+ 
+.hero-restaurant{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    background-image: url('assets/hero-restaurant.jpeg');
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding: 0 100px;
+}
 .hero-content h2{
     font-size: 24px;
     font-weight: 700;
@@ -174,7 +186,6 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 80px 100px;
-    background-color: #fff;
 }
 
 .about-image {
@@ -245,7 +256,6 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 80px 100px;
-    background-color: #fff;
     gap: 20px;
 }
 
@@ -281,6 +291,66 @@ ul {
 
 .reservation-content {
     text-align: center;
+}
+
+/*page notre restaurant */
+.restaurant-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 20px;
+}
+
+.restaurant-info-content p {
+    margin-bottom: 20px;
+}
+
+.restaurant-univers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.restaurant-univers-content{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.reassurance-restaurant{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.restaurant-équipe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 20px;
+}
+
+.restaurant-équipe-content{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-restaurant {
+    background-image: url('assets/contact-restaurant.jpeg');
+    background-size: cover;
 }
 /*FOOTER */
 footer {
