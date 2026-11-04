@@ -377,7 +377,31 @@ ul {
   display: block;
   fill: #efebe2;           
 }
+ /*galerie*/
+.galerie-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 20px;
+    background-image: url('assets/magret.jpeg');
+    background-size: cover;
+    color: #fff;
+}
 
+.galerie-intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 80px 100px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 /*FOOTER */
 footer {
     display: flex;
